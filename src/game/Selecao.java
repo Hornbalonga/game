@@ -70,6 +70,7 @@ public class Selecao extends JFrame {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				new Inicio().setVisible(true);
+				dispose();
 			}
 		});
 		btnNewButton.setBounds(15, 109, 89, 23);
@@ -79,6 +80,7 @@ public class Selecao extends JFrame {
 		btnVoltar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			new Game().setVisible(true);
+			dispose();
 			}
 			
 		});
